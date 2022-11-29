@@ -11,3 +11,15 @@ Questa soluzione è nata dalla richiesta di un mio conoscente, necessitante di u
 In questo capitolo verrà affrontata la fase di ricerca/studio delle richieste e della successiva trasformazione in requisiti del sistema, con successivo studio.  
 La seguente parte è molto delicata, poiché le attività di sviluppo sono basate su questa fase di processo.
 Quando i suddetti requisiti non sono stati creati in maniera chiara, univoca, coerente e completa, possono comportare il fallimento dell'intero progetto.
+I requisiti si suddividono in tre categorie:  
+
+- funzionali, sono i requisiti che descrivono le funzionalità che il sistema deve svolgere;
+- non funzionali, sono i requisiti che esprimono dei vincoli o delle caratteristiche di qualità; si suddividono in due ulteriori categorie:
+    - i parametri esterni, rappresentati dalla qualità complessiva per gli utenti del prodotto, denotando la correttezza, l'affidabilità, la robustezza e l'usabilità complessiva;
+    - i parametri interni, indicati come la qualità software quindi per il riuso del codice, la verifica, la manutenibilità e la modularità del prodotto;
+- i requisiti di dominio esprimono le caratteristiche che il sistema deve soddisfare, in un determinato dominio di utilizzo, provenendo dal dominio applicativo; se questi requisiti venissero a mancare, il sistema risula inusabile.
+
+    11. Definizione del problema (da sostituire con 1.1)  
+    Nel negozio, viene ancora eseguita la procedura di carico/scarico della merce ancora su carta, avendo le conseguenti problematiche di praticità di spazio, di organizzazione e di tempo per la revisione delle scorte restanti in magazzino. Un'altro punto molto importante è la possibilità di avere uno storico aggiornato costantemente sul fatturato totale (per singolo articolo) con le relative scontistiche e il margine di guadagno su ogni codice articolo. Infine, per rendere il tutto più semplice, cerco di rendere l'interfaccia complessiva comunque sempre dettagliata, per dare sempre le informazioni necessarie ed essere intuitiva.
+
+    12. 
