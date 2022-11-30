@@ -22,4 +22,8 @@ I requisiti si suddividono in tre categorie:
     11. Definizione del problema (da sostituire con 1.1)  
     Nel negozio, viene ancora eseguita la procedura di carico/scarico della merce ancora su carta, avendo le conseguenti problematiche di praticità di spazio, di organizzazione e di tempo per la revisione delle scorte restanti in magazzino. Un'altro punto molto importante è la possibilità di avere uno storico aggiornato costantemente sul fatturato totale (per singolo articolo) con le relative scontistiche e il margine di guadagno su ogni codice articolo. Infine, per rendere il tutto più semplice, cerco di rendere l'interfaccia complessiva comunque sempre dettagliata, per dare sempre le informazioni necessarie ed essere intuitiva.
 
-    12. 
+    12. Utenti coinvolti (da sostituire con 1.2)  
+    Il sistema verrà usato dal titolare dell'azienda e al massimo dai suoi dipendenti; nessun esterno avrà la possibilità di entrare nel sistema.
+
+    13.  Elicitazione e scoperta dei requisisti (da sostituire con 1.3)  
+    
