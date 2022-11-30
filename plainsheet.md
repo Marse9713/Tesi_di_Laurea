@@ -26,4 +26,8 @@ I requisiti si suddividono in tre categorie:
     Il sistema verrà usato dal titolare dell'azienda e al massimo dai suoi dipendenti; nessun esterno avrà la possibilità di entrare nel sistema.
 
     13.  Elicitazione e scoperta dei requisisti (da sostituire con 1.3)  
-    
+    Dopo diversi confronti con il cliente, siamo convenuti per creare una Web Application, che contenga le seguenti specifiche:  
+    a. la scheda per il login, che sarà controllata sulla base di un login tramite firebase, per la verifica dell'utente che si dovrà connettere con una password ed un id;  
+    b. la scheda successiva mostrerà i vari reparti ed a lato ci saranno i pulsanti CARICO per inserire   
+    c. la scheda per il processo di carico e scarico, sono molto simili le schede, richiedendo o da tastiera o da smartphone il codice dell'articolo (il codice a barre mandato dal produttore) e il numero da aggiungere o da togliere a magazzino;  
+    d. la schda
