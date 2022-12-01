@@ -36,9 +36,24 @@ I requisiti si suddividono in tre categorie:
     d. la scheda per l'inventario dotato di un trasformatore in pdf e modalità di stampa per avere sempre la possibilità di avere un cartaceo del magazzino;
     e. la scheda di monitor di sistema per spegnere o controllare il carico del processore, i watt consumati e la ram in uso (andrà ad essere abilitato con un successivo login per colui che fa manutenzione del sistema);  
     f. la scheda di cassa, per creare il pagamento (simulando la cassa fisica), solo creando l'inserimento dei dati da tastiera ed inserendo il pagamento contate o bancomat, però con l'aggiunta del fatto che si possano effettivamente scalare i prodotti;  
-    e. una applicazioni con una scheda, in dettaglio la scheda per il riconoscimento del codice a barre, mostrando a display quando riconosciuto, il nome dell'articolo, con la possibilità di inserire la taglia.
-
-    # 14. Raccolta dei requisiti di sistema  
-
-    Per la raccolta dati è stato fatta la sintesi con il titolare dell'attività coinvolta, definendo tutte le specifiche che necessita avere dal sistema.  
     
+    Insieme a questa Web Application, verrà supportata da una applicazioni scritta in Flutter per dispositivo mobile, contenente una scheda per il riconoscimento del prodotto tramite codice a barre e al momento di riconoscimento verrà mostrato a display il nome dell'articolo, con la possibilità di inserire la taglia.
+
+    # 14. Architettura completa del sistema  (da sostituire con 1.4)
+
+    Tutto il sistema sarà un insieme, composto da un pc fisso, collegato alla rete locale, con collegamento bluetooth al telefono per il rilevamento dello smartphone. Il tutto sarà raggiungibile da un ip scritto dal pc già presente all'interno del negozio. 
+
+    # 15. Firebase
+
+    Firebase è una piattaforma Google per il controllo degli accessi a un'applicazione web, con la possibile verifica tramite controllo di credenziali e la possibilità di inserimento di una dual factors authentication. 
+
+    # 16. WEB APP
+
+    # 17. APPLICAZIONE MOBILE
+
+    # 18. DATABASE MYSQL
+
+    # 19. Definizione dei requisiti
+
+    1. Per definire tutti i requisiti sono servite numerose interviste con il cliente giusto
+        
