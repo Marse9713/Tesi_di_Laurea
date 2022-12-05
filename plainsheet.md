@@ -41,7 +41,7 @@ I requisiti si suddividono in tre categorie:
 
     # 14. Architettura completa del sistema  (da sostituire con 1.4)
 
-    Tutto il sistema sarà un insieme, composto da un pc fisso, collegato alla rete locale, con collegamento bluetooth al telefono per il rilevamento dello smartphone. Il tutto sarà raggiungibile da un ip scritto dal pc già presente all'interno del negozio. 
+    Tutto il sistema sarà un insieme, composto da un pc fisso, collegato alla rete locale, con collegamento bluetooth al telefono per il rilevamento dello smartphone. Il tutto sarà raggiungibile da un ip scritto dal pc già presente all'interno del negozio. (sostituibile con un url per facilitarne l'uso).
 
     # 15. Firebase
 
@@ -55,5 +55,15 @@ I requisiti si suddividono in tre categorie:
 
     # 19. Definizione dei requisiti
 
-    1. Per definire tutti i requisiti sono servite numerose interviste con il cliente giusto
+    1. Per definire tutti i requisiti, del portale e dell'applicazione, abbiamo stipulato le seguenti requisiti:  
+    - il portale (Collettore) deve avere diverse suddivisioni per coprire ogni scopo sottocitato:
+        - deve poter caricare gli articoli, con il loro prezzo, il tasso di sconto con il quale si acquistano, il prezzo al dettaglio, il margine di guadagno (in percentuale) sulla rivendita di tale oggetto e l'eventuale scontistica fatta sull'oggetto; (4 volte al mese)
+        - deve poter scaricare gli articoli, marcando gli introiti ed il margine di guardagno realizzato dal singolo settore, contraddistinto da ogni singolo articolo venduto; (15 volte al giorno)
+        - deve avere una sezione dedicata completamente all'inventario, per controllare le giacenze a magazzino dei prodotti; (1 volta al mese)
+        - deve poter emulare le varie diciture trasmesse direttamente in cassa per poter emettere scontrini e controllare il tipo di conto possa venir emesso, se pagamento elettronico o pagamento contante, registrando in una struttura cloud i vari scontrini scritti in plain text, tenendo traccia e dando uno storico dei pagamenti; (15 volte al giorno)
+    - l'applicazione per smartphone dovrà:
+        - avere una pagina per l'inizializzazione dell'applicazione, controllo del funzionamento e corretto collegamento con l'unità centrale;
+        - avere una pagina dedita al caricamento dei prodotti, tramite scansione del codice a barre dei prodotti;
+        - avere una pagina dedita allo scaricamento dei prodotti, tramite scansione del codice a barre dei prodotti ed inserimento del numero di articoli da togliere a magazzino;
+        - avere una pagina dedicata all'inventario, per il controllo e il cambiamento dei numeri di prodotti o alla eliminazione dei prodotti se non più presenti;
         
