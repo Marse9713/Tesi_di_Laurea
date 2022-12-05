@@ -1,13 +1,11 @@
 <h1> Tesi di Laurea di Raffaele Marseu</h1>
 
-<h2> INTRODUZIONE </h2>
-------------------------------------------------------------------------------------------------------------------------
+# INTRODUZIONE
 
 La tesi descrive il processo di progettazione e sviluppo di una Restfull Web application (Collector) e una applicazione mobile basata sul linguaggio Flutter (Agent).  
 Questa soluzione è nata dalla richiesta di un mio conoscente, necessitante di un sistema per caricare/scaricare i prodotti all'interno del suo magazzino di articoli sportivi, avendo una maggiore digitalizzazione e tracciamente delle sue scorte di prodotti e facilitazione nell'eseguire le operazioni di inventario. Tutte le interfacce sono state analizzate anche da un punto di vista visivo ed intuitivo, quindi rendendola gradevole ma allo stesso tempo facile all'apprendimento. Per tale compito ho chiesto l'aiuto ad una mia conoscente, laureata in design, per poter avere una opinione più professionale rispetto alle competenze che possa avere. Per concludere il sistema sarà fatto lavorare su una piattaforma Debian, per avere un maggior controllo delle risorse e per una maggior stabilità complessiva del sistema.
 
-<h2> CAPITOLO 1: Analisi dei requisiti </h2>
-------------------------------------------------------------------------------------------------------------------------
+# CAPITOLO 1: Analisi dei requisiti
 In questo capitolo verrà affrontata la fase di ricerca/studio delle richieste e della successiva trasformazione in requisiti del sistema, con successivo studio.  
 La seguente parte è molto delicata, poiché le attività di sviluppo sono basate su questa fase di processo.
 Quando i suddetti requisiti non sono stati creati in maniera chiara, univoca, coerente e completa, possono comportare il fallimento dell'intero progetto.
@@ -70,20 +68,20 @@ I requisiti si suddividono in tre categorie:
         - avere una pagina dedita allo scaricamento dei prodotti, tramite scansione del codice a barre dei prodotti ed inserimento del numero di articoli da togliere a magazzino; (15 volte al giorno)
         - avere una pagina dedicata all'inventario, per il controllo e il cambiamento dei numeri di prodotti o alla eliminazione dei prodotti se non più presenti; (10 volte al mese)
 
-# IMMAGINE DATAFLOW
+# 21 IMMAGINE DATAFLOW
 
-# TABELLA DEI REQUISITI
+# 22 TABELLA DEI REQUISITI
 
-# design e tamplate per i processi di design e user work flow
+# 31 Design e tamplate per i processi di design e user work flow
 
-# valutazione e raccolta dati da parte dell'utente finale
+# 32 Dettagli implementativi
 
-# dettagli implementativi
+# 33 Test e verifica del progetto
 
-# test e verifica del progetto
+# 41 Valutazione e raccolta dati da parte dell'utente finale
 
-# risultati conclusivi 
+# 42 Risultati conclusivi 
 
-# conclusioni
+# 43 Conclusioni
 
-# bibliografia (flutter - google, html, css, js - sams teach yourself html, css and javascript)
+# 51 bibliografia (flutter - google, html, css, js - sams teach yourself html, css and javascript)
