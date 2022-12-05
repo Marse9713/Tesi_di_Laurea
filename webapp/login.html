@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gio sport Login page</title>
+    <link rel ="stylesheet" type = 'text/css' media ='screen' href='login.css'>
+    <script src = "login.js" type = "module"></script>
+    <link rel ="shortcut icon" href="#">
 </head>
 <body>
 
-    <h1>Gio sport</h1>
+    <h1>GIO SPORT</h1>
 
-    <p>username
-        
-        <textarea></textarea>
-    
-    </p>
-    
-    <br>
+    <div class = "login">
 
-    <p>password
-        <textarea></textarea>
-    </p>
+        <div class = "username">
+
+            <label for = "username"> </b> Username: </b> </label>
+            <input type = "text" name = "username" id = "user" autofocus autocomplete="off"> 
+
+        </div>
+
+        <div class = "password">
+
+            <label for = "password"> </b> Password: </b> </label>
+            <input type = "text" name = "password" id = "pass" autocomplete = "off">
+
+        </div>
+
+        <div>
+
+            <button type = "submit" id = "submit"> Login </button>
+
+        </div>
+
+    </div>
     
 </body>
 </html>
