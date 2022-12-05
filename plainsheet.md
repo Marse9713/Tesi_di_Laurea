@@ -61,9 +61,29 @@ I requisiti si suddividono in tre categorie:
         - deve poter scaricare gli articoli, marcando gli introiti ed il margine di guardagno realizzato dal singolo settore, contraddistinto da ogni singolo articolo venduto; (15 volte al giorno)
         - deve avere una sezione dedicata completamente all'inventario, per controllare le giacenze a magazzino dei prodotti; (1 volta al mese)
         - deve poter emulare le varie diciture trasmesse direttamente in cassa per poter emettere scontrini e controllare il tipo di conto possa venir emesso, se pagamento elettronico o pagamento contante, registrando in una struttura cloud i vari scontrini scritti in plain text, tenendo traccia e dando uno storico dei pagamenti; (15 volte al giorno)
+        - deve poter tener traccia di tutti gli scontrini, delle spese giornaliere per i prodotti, dei ricavi ed il numero di transazioni eseguite; (3 volte al giorno)
+        - deve poter ricercare gli articoli anche da portale senza l'ausilio dello smartphone; (15 volte al giorno)
+        - si deve dare la possibilità di modificare, inserire ed eliminare un articolo senza l'ausilio dello smartphone;(5 volte al giorno)
     - l'applicazione per smartphone dovrà:
-        - avere una pagina per l'inizializzazione dell'applicazione, controllo del funzionamento e corretto collegamento con l'unità centrale;
-        - avere una pagina dedita al caricamento dei prodotti, tramite scansione del codice a barre dei prodotti;
-        - avere una pagina dedita allo scaricamento dei prodotti, tramite scansione del codice a barre dei prodotti ed inserimento del numero di articoli da togliere a magazzino;
-        - avere una pagina dedicata all'inventario, per il controllo e il cambiamento dei numeri di prodotti o alla eliminazione dei prodotti se non più presenti;
-        
+        - avere una pagina per l'inizializzazione dell'applicazione, controllo del funzionamento e corretto collegamento con l'unità centrale; (20 volte al giorno)
+        - avere una pagina dedita al caricamento dei prodotti (carico nuova merce/resi della merce), tramite scansione del codice a barre dei prodotti; (15 volte al mese)
+        - avere una pagina dedita allo scaricamento dei prodotti, tramite scansione del codice a barre dei prodotti ed inserimento del numero di articoli da togliere a magazzino; (15 volte al giorno)
+        - avere una pagina dedicata all'inventario, per il controllo e il cambiamento dei numeri di prodotti o alla eliminazione dei prodotti se non più presenti; (10 volte al mese)
+
+# IMMAGINE DATAFLOW
+
+# TABELLA DEI REQUISITI
+
+# design e tamplate per i processi di design e user work flow
+
+# valutazione e raccolta dati da parte dell'utente finale
+
+# dettagli implementativi
+
+# test e verifica del progetto
+
+# risultati conclusivi 
+
+# conclusioni
+
+# bibliografia (flutter - google, html, css, js - sams teach yourself html, css and javascript)
