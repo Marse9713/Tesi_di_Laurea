@@ -14,7 +14,7 @@ let load = document.getElementById("load");
 
 load.addEventListener("click", (e) => {
 
-    window.location = "webapp/carico/carico.html";
+    window.location = "./carico/carico.html";
 
 });
 
@@ -22,7 +22,7 @@ let unload = document.getElementById("unload");
 
 unload.addEventListener("click", (e) => {
 
-    window.location = "webapp/scarico/scarico.html";
+    window.location = "./scarico/scarico.html";
 
 });
 
@@ -30,7 +30,7 @@ let inventory = document.getElementById("inventory");
 
 inventory.addEventListener("click", (e) => {
 
-    window.location = "webapp/inventario/inventario.html";
+    window.location = "./inventario/inventario.html";
 
 });
 
@@ -38,7 +38,7 @@ let cashregister = document.getElementById("cashregister");
 
 cashregister.addEventListener("click", (e) => {
 
-    window.location = "webapp/cassa/cassa.html";
+    window.location = "./cassa/cassa.html";
 
 });
 
@@ -46,7 +46,7 @@ let payday = document.getElementById("payday");
 
 payday.addEventListener("click", (e) => {
 
-    window.location = "webapp/storico_giornata/storico_giornata.html";
+    window.location = "./storico_giornata/storico_giornata.html";
 
 });
 
@@ -54,7 +54,7 @@ let payday_history = document.getElementById("payday_history");
 
 payday_history.addEventListener("click", (e) => {
 
-    window.location = "webapp/storico_scontrini/storico_scontrini.html";
+    window.location = "./storico_scontrini/storico_scontrini.html";
 
 });
 
@@ -62,7 +62,7 @@ let bill_archive = document.getElementById("bill_archive");
 
 bill_archive.addEventListener("click", (e) => {
 
-    window.location = "webapp/archivio_scontrini/archivio_scontrini.html";
+    window.location = "./archivio_scontrini/archivio_scontrini.html";
 
 });
 
