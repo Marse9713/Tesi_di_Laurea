@@ -14,7 +14,7 @@ let load = document.getElementById("load");
 
 load.addEventListener("click", (e) => {
 
-    window.location = "../carico/carico.html";
+    window.location = "./carico.html";
 
 });
 
