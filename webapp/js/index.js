@@ -3,7 +3,7 @@ let btn = document.getElementById("login");
 btn.addEventListener("click", (e) => {
 
     window.alert("Login effettuato");
-    window.location = "/html/pagina_iniziale.html";
+    window.location = "html/pagina_iniziale.html";
 
 });
 
