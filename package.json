@@ -23,5 +23,6 @@
     "node": "^19.2.0",
     "server": "^1.0.38"
   },
+  "devDependencies": {},
   "description": ""
 }
