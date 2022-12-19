@@ -62,11 +62,7 @@ let bill_archive = document.getElementById("bill_archive");
 
 bill_archive.addEventListener("click", (e) => {
 
-<<<<<<< HEAD:webapp/js/pagina_iniziale.js
- window.open("https://drive.google.com/drive/u/2/folders/1YhMUQIwfYhqedEnk07EOPUugSzVsDIIn", '_blank') ;
-=======
-    window.location = "./archivio_scontrini.html";
->>>>>>> f7fbe2b5be32b57108ea668e025db23c7f9b4741:webapp/pagina_iniziale/pagina_iniziale.js
+ window.open("https://drive.google.com/drive/u/2/folders/1YhMUQIwfYhqedEnk07EOPUugSzVsDIIn", '_blank');
 
 });
 
