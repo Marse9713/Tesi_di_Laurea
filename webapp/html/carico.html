@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type = 'text/css' media ='screen' href='/webapp/css/carico.css'>
+    <script src = "/webapp/js/carico.js" type = "module"></script>
+    <link rel ="shortcut icon" href="#">
+    <title>Carico</title>
+</head>
+<body>
+
+    <h1> CARICO </h1>
+
+    <button type="submit" id = "home">Home</button>
+
+    <h2 id = "time"></h2>
+
+    <div id = "c_art">
+
+        Codice articolo:
+
+        <input type = "text" name = "c_articolo" id = "art" oninput="this.value = this.value.replace(/[^0-9.]/g, '');">
+
+    </div>
+
+    </br>
+
+    <div id = "d_art">
+
+        Descrizione articolo:
+
+        <input type = "text" name = "d_articolo" id = "des">
+
+    </div>
+
+    </br>
+
+    <div id = "t_articolo">
+
+        Taglia/Misura:
+
+        <input type = "text" name = "t_articolo" id = "tgl">
+
+    </div>
+
+    </br>
+
+    <div id = "t_articolo">
+
+        Numero:
+
+        <input type = "text" name = "t_articolo" id = "tgl">
+
+    </div>
+
+    </br>
+
+    <div id = "pa_articolo">
+
+        Costo acquisto: €
+
+        <input type = "text" name = "pa_articolo" id = "prz_a" oninput="this.value = this.value.replace(/[^0-9.]/g, '');">
+
+    </div>
+
+    </br>
+
+    <div id = "sa_articolo">
+
+        Scontro all'acquisto: %
+
+        <input type = "text" name = "sa_articolo" id = "scn_a" oninput="this.value = this.value.replace(/[^0-9.]/g, '');">
+
+    </div>
+
+    </br>
+
+    <div id = "pv_articolo">
+
+        Prezzo al dettaglio: €
+
+        <input type = "text" name = "pv_articolo" id = "prz_v" oninput="this.value = this.value.replace(/[^0-9.]/g, '');">
+
+    </div>
+        
+    </br>
+
+    <div id = "sv_articolo">
+
+        Scontro alla vendita: %
+
+        <input type = "text" name = "sv_articolo" id = "scn_v" oninput="this.value = this.value.replace(/[^0-9.]/g, '');">
+
+    </div>
+    
+</body>
+</html>

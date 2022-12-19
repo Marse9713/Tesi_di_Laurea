@@ -1,14 +1,18 @@
-const mysql = require("mysql");
-const { config } = require("process");
-const dbConfig = require("../dbconfig/dbconfig.js");
+import { createPool } from "mysql";
+import { HOST, USER, PASSWORD, DB } from "./dbconfig/dbconfig.js";
 
-const pool = mysql.createPool({
+const pool = createPool({
 
-    host: dbConfig.HOST,
-    user: dbConfig.USER,
-    password: dbConfig.PASSWORD,
-    database: dbConfig.DB
+    host: HOST,
+    user: USER,
+    password: PASSWORD,
+    database: DB
 
 });
 
-module.exports = pool;
+connection.connect(error => {
+    if (error) throw error;
+    console.log("Successfully connected to the database.");
+  });
+
+export default pool;

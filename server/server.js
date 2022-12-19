@@ -1,14 +1,9 @@
-import express from 'express';
-var app = express();
+import express from "express";
+import cors from 'cors';
 
-app.get('/', function(req, res){
+const app = express();
+app.use(cors({ origin:"http://localhost:5500"}));
 
-    res.status(200).sed("Hello World");
+require("./routes/routes.js")(app);
 
-});
-
-app.listen(PORT, function(){
-
-    console.log("Server is running on port:", PORT);
-
-});
+app.listen(5000); //listen on 5000

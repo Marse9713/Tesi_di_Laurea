@@ -1,8 +1,8 @@
 {
   "name": "tesi_di_laurea",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/Marse9713/Tesi_di_Laurea#readme",
   "dependencies": {
-    "node": "^19.2.0"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "node": "^19.2.0",
+    "server": "^1.0.38"
+  },
+  "description": ""
 }
