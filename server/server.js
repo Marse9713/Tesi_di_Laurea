@@ -2,8 +2,24 @@ import express from "express";
 import cors from 'cors';
 
 const app = express();
-app.use(cors({ origin:"http://localhost:5500"}));
 
-require("./routes/routes.js")(app);
+var corsOptions = { origin: "http://localhost:5500" };
 
-app.listen(5000); //listen on 5000
+app.use(cors(corsOptions));
+
+// parse requests of content-type - application/json
+app.use(express.json());
+
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }));
+
+// simple route
+app.get("/", (req, res) => {
+  res.json("Server is working. All ok");
+});
+
+// set port, listen for requests
+const PORT = process.env.PORT || 5501;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+});
