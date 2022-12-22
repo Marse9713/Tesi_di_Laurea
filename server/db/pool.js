@@ -1,18 +1,17 @@
-import express from "express";
-import cors from 'cors';
-import {HOST, USER, PASSWORD, DB} from './dbconfig/dbconfig.js';
-import { createConnection } from 'mysql';
+import createConnection from "mysql"
 
-var pool = mysql.createPool({
+var con = createConnection({
+  host: HOST,
+  user: USER,
+  password: PASSWORD,
+  database: DB
+});
 
-    host: HOST,
-    user: USER,
-    password: PASSWORD,
-    database: DB
+var connection = con.connect(function(err) {
+
+  if (err) throw err;
+  console.log("Connected!");
 
 });
 
-pool.getConnection(function(err, connection) {
-
-    connection.release();
-})
+export default connection;
