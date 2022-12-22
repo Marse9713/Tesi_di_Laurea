@@ -33,7 +33,9 @@ var con = createConnection({
   database: DB
 });
 
-con.connect(function(err) {
+var connection = con.connect(function(err) {
+
   if (err) throw err;
   console.log("Connected!");
+
 });
