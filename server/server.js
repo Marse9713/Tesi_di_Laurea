@@ -1,13 +1,31 @@
-import express from "express";
-import cors from 'cors';
-import bodyParser from "body-parser";
-import connection from "./db/pool.js";
-
+const express = require('express');
 const app = express();
+const cors = require('cors');
 
-var corsOptions = { origin: "http://localhost:5500" };
+const connection = require('./db/pool.js')
 
-app.use(cors(corsOptions));
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended : false }))
 
-// parse requests of content-type - application/json
-app.use(bodyParser.json);
+//post
+
+app.post("/insert", (request, response) => {
+
+
+});
+
+//get
+
+app.get("/getAll", (request, response) => {
+
+    const db = DBService.getDbServiceInstance();
+    const result = db.getAllData()
+
+});
+
+
+//put
+
+
+//delete

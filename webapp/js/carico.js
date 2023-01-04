@@ -17,3 +17,11 @@ function refreshTime(){
 }
 
 setInterval(refreshTime, 1);
+
+let ins = document.getElementById("ins");
+
+btn.addEventListener("click", (e) => {
+
+    window.location = "/webapp/html/carico/inserimento-articolo";
+
+});
